@@ -4,12 +4,12 @@ Git- foi criado em 2005
 sistema de versionamento de codigo distribuido
 criado por Linus Torvalds.
 
-Ajuda a criar diferentes versıes do nosso cÛdigo, dentro de nossa maquina
+Ajuda a criar diferentes vers—Öes do nosso c—Édigo, dentro de nossa maquina
 
 
-GITHUB- Serve para guardar o versionamento de cÛdigo, criado pela Microsoft.
+GITHUB- Serve para guardar o versionamento de c—Édigo, criado pela Microsoft.
 
-GitHub repositÛrio online de armazenamente de cÛdigo
+GitHub reposit—Ério online de armazenamente de c—Édigo
 
 
 cmd > dir (listar diretorios)
@@ -27,22 +27,22 @@ echo hello > hello.txt saida da funcao echo
 
 del/ rmdir workspace /s /q > pra deletar o repositorio
 -------------------------------------------------------------------------------------------------------------
-SHA1- security hash algorithm- conjunto de funÁoes hsh criptogr·ficas criada pela NSA (AgÍncia de seguranÁa Nacional dos EUA)
+SHA1- security hash algorithm- conjunto de fun–∑oes hsh criptogr–±ficas criada pela NSA (Ag–∫ncia de seguran–∑a Nacional dos EUA)
 
-EncriptaÁ„o gera conjunto de characteres identificador de 40 digitos
+Encripta–∑–≥o gera conjunto de characteres identificador de 40 digitos
 comando: openssl sha1 texto.txt
 
 ------------------------------------------------------------------------------------------
 objeto blobs - echo 'conteudo'| git hash-object -- stdin
-blobs contÈm metadados dentro dele (tipo do objeto, tamanho da string)
+blobs cont–πm metadados dentro dele (tipo do objeto, tamanho da string)
 echo -e 'blob 9\0conteudo' | openssl sha1 - mesma chave criptografada
 
 ------------------------------------------------------------------------------------------
-objeto TREE ou arvores-  Amarzenam blobs e apontando, guarda o nome do arquivo. montar a estrutura de onde est„o os arquivos
+objeto TREE ou arvores-  Amarzenam blobs e apontando, guarda o nome do arquivo. montar a estrutura de onde est–≥o os arquivos
 ----------------------------------------------------------------------------------
-objeto Commit- aponta para uma arvore, para um parente, para um autor, para uma mensgem e para uma timestamp (carimbo de tempo de quando foi criado). O sha1 desse commit È o hash de todas informaÁ„o
+objeto Commit- aponta para uma arvore, para um parente, para um autor, para uma mensgem e para uma timestamp (carimbo de tempo de quando foi criado). O sha1 desse commit –π o hash de todas informa–∑–≥o
 ----------------------------------------------------------------------------------
-chave ssh- È uma forma de estabelecer conex„o segura e encriptada entre duas maquinas. vai ter uma chave p˙blica e uma privada
+chave ssh- –π uma forma de estabelecer conex√£o segura e encriptada entre duas maquinas. vai ter uma chave p√∫blica e uma privada
 
 
 
@@ -52,9 +52,11 @@ chave ssh- È uma forma de estabelecer conex„o segura e encriptada entre duas maq
 
 git status
 
-git clone - para clonar
+git clone - para clonar copiar o hhtps e colar no git clone e depois da um git status
 
-git add - adicionar
+git add . ou -a - adicionar todos os arquivos ao controle de vers√£o local (sua m√°quina)
+
+git commit -m "" - para colocar uma mensagen
 
 gita add* - adicionar tudo
 
