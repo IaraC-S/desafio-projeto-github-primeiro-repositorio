@@ -1,0 +1,61 @@
+token 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
+
+Git- foi criado em 2005
+sistema de versionamento de codigo distribuido
+criado por Linus Torvalds.
+
+Ajuda a criar diferentes versões do nosso código, dentro de nossa maquina
+
+
+GITHUB- Serve para guardar o versionamento de código, criado pela Microsoft.
+
+GitHub repositório online de armazenamente de código
+
+
+cmd > dir (listar diretorios)
+cd / (navegar entre as pasta (base do diretorio c:) ) 
+cd windows (para entrar na pasta windows)
+cd .. (voltar para pastar anterior) 
+cls (limpar)
+
+
+mkdir> criar pasta
+
+echo hello> arquivo criado 
+
+echo hello > hello.txt saida da funcao echo
+
+del/ rmdir workspace /s /q > pra deletar o repositorio
+-------------------------------------------------------------------------------------------------------------
+SHA1- security hash algorithm- conjunto de funçoes hsh criptográficas criada pela NSA (Agência de segurança Nacional dos EUA)
+
+Encriptação gera conjunto de characteres identificador de 40 digitos
+comando: openssl sha1 texto.txt
+
+------------------------------------------------------------------------------------------
+objeto blobs - echo 'conteudo'| git hash-object -- stdin
+blobs contém metadados dentro dele (tipo do objeto, tamanho da string)
+echo -e 'blob 9\0conteudo' | openssl sha1 - mesma chave criptografada
+
+------------------------------------------------------------------------------------------
+objeto TREE ou arvores-  Amarzenam blobs e apontando, guarda o nome do arquivo. montar a estrutura de onde estão os arquivos
+----------------------------------------------------------------------------------
+objeto Commit- aponta para uma arvore, para um parente, para um autor, para uma mensgem e para uma timestamp (carimbo de tempo de quando foi criado). O sha1 desse commit é o hash de todas informação
+----------------------------------------------------------------------------------
+chave ssh- é uma forma de estabelecer conexão segura e encriptada entre duas maquinas. vai ter uma chave pública e uma privada
+
+
+
+
+
+## Comandos
+
+git status
+
+git clone - para clonar
+
+git add - adicionar
+
+gita add* - adicionar tudo
+
+ls- listar as pastas
